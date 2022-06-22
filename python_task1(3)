@@ -1,0 +1,39 @@
+def numbers(students):
+    subject=[]
+    num={}
+num_std=len(students)
+        for e in students[n]:
+            if not e in subject:
+                subject.append(e)
+    for s in subject:
+    c=0
+    if s in students[n]:
+        for n in range(num_std):
+        c=c+1
+        num.update({s:c})
+    return(num) 
+print("Number of students")
+n=int(input())
+students=[]
+li=[]
+for i in range(n):
+    print("Enter number of subjects",(i+1))
+    st=int(input())
+    print("Enter the subjects")
+    li=[]
+    for j in range(st):
+        ele=input()
+        li.append(ele)
+    students.append(li)
+print(students)
+num=numbers(students)
+def popular(num):
+    mx=0
+    de=len(num)
+    for key
+    if mx<value:
+        mx=value
+            popular_course=key
+    print("popular course=")        
+    return(popular_course)
+print(popular(num))
