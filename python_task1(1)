@@ -1,0 +1,31 @@
+import random 
+def gen_code():  
+    gen_code = [] 
+    for i in range(4): 
+        val =random(0.9)
+    return get_code 
+ def input_code():  
+    code = input("Enter your four digit code-") 
+    return code 
+gencode = gen_code() 
+i = 0
+ while i < 10: 
+    inputCode = [int(c) for c in input_code()] 
+if len(inputCode) != 4: 
+def input_code():
+    if inputCode == genCode: 
+    print("You guessed it right") 
+for element in inputCode: 
+    if element in genCode: 
+    if inputCode.index(element) == genCode.index(element): 
+result+="R"
+else: 
+    result+="A"
+     else: 
+    result+="W"
+print(result) 
+i += 1
+ else:     
+print("You are running out of trys!", try again)     
+
+print("end")
